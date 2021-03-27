@@ -40,7 +40,8 @@
                                                       <tr>
                                                          <td style="width:160px">
                                                          <!--    <img height="auto" src="https://reprografia.com.br/assets/img/email/logo_template.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%" width="130" class="CToWUd"> -->
-                                                            <img height="auto" src="https://socioeternocampeao.com.br/assets/img/email/logo_email_back.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%" width="160" class="CToWUd">
+                                                           
+                                                         <img height="auto" src="https://paytour.afrenti.com.br/public/images/logo_paytour.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%" width="160" class="CToWUd">
                                                          </td>
                                                       </tr>
                                                    </tbody>
@@ -68,8 +69,8 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px">
                                                    <tbody>
                                                       <tr>
-                                                         <td style="width:600px; background: #000000; height: 100px;">
-                                                            <h2 style="font-family:Arial,sans-serif;margin-top:35px;margin-bottom:35px;display:block;font-size:30px;color:#fff;text-transform:uppercase;font-weight:normal; text-align: center;"><strong>Seja bem vindo!</strong></h2>
+                                                         <td style="width:600px; background: #5031A9; height: 100px;">
+                                                            <h2 style="font-family:Arial,sans-serif;margin-top:35px;margin-bottom:35px;display:block;font-size:30px;color:#fff;text-transform:uppercase;font-weight:normal; text-align: center;"><strong>Parabéns!</strong></h2>
                                                         </td>
                                                       </tr>
                                                    </tbody>
@@ -94,8 +95,8 @@
                                        <tbody>
                                           <tr>
                                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word">
-                                                <div style="font-family:sans-serif;font-size:28px;line-height:250%;text-align:center;color:#EB3237">
-                                                   Olá <strong>Iran Ferreira!</strong>
+                                                <div style="font-family:sans-serif;font-size:28px;line-height:250%;text-align:center;color:#d45832">
+                                                   Olá <strong>Usuario!</strong>
                                                 </div>
                                              </td>
                                           </tr>
@@ -104,9 +105,57 @@
                                                 <div style="font-family:sans-serif;font-size:16px;line-height:150%;text-align:center;color:#555555">
                                                    Obrigado por se resgistrar como<br>
                                                    <strong>Mebro.</strong>
-                                                   Falta pouco para você fazer parte da familia riverina e concluir seu cadastro, acesse seu painel e escolha uma forma de pagamento.
                                                 </div>
                                              </td>
+                                          </tr>
+
+                                          <tr>
+                                              <td>
+
+                                                <table>
+
+                                                    <tr>
+                                                        <th style="font-size: 18px; font-weight: bold;">
+                                                            Dados do curriculo
+                                                        </th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Nome:</strong></td>
+                                                        <td>{{ $curriculo['nome'] }}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Email:</strong></td>
+                                                        <td>{{$curriculo['email']}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Telefone:</strong></td>
+                                                        <td>{{$curriculo['telefone']}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Cargo:</strong></td>
+                                                        <td>{{$curriculo['cargo']}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Escolaridade:</strong></td>
+                                                        <td>{{$curriculo['escolaridade_id']}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                           <strong>Observação:</strong>
+                                                           <br>
+                                                           <td>{{$curriculo['observacoes']}}</td>
+                                                         </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            Arquivo: <br> Arquivo
+                                                        </td>
+                                                    </tr>
+
+                                                </table>
+
+                                              </td>
                                           </tr>
                                        </tbody>
                                     </table>
@@ -129,8 +178,7 @@
                                        <tbody>
                                           <tr>
                                              <td align="center" style="font-size:0px;padding:0px;padding-top:0px;word-break:break-word">
-                                                <div style="font-family:sans-serif;font-size:18px;line-height:300%;text-align:center;color:#555555">Acesse painel do torcedor:</div>
-                                                <a href="https://socioeternocampeao.com.br/login" style="font-family:sans-serif;box-sizing: border-box; border-color: rgb(235,49,62); font-weight: 500; text-decoration: none; display: inline-block; margin: 0; color: #ffffff; background-color: rgb(235,49,62); border-bottom: solid 5px rgb(214,20,35); border-radius: 2px; cursor: pointer; font-size: 16px; padding: 12px 45px;" target="_blank">Acessar Painel</a>
+                                               
                                              </td>
                                           </tr>
                                        </tbody>
@@ -154,7 +202,7 @@
                                        <tbody>
                                           <tr>
                                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word">
-                                                <div style="font-family:sans-serif;font-size:16px;line-height:150%;text-align:center;color:#555555">Abraços,<br>Equipe <span class="il">Sócio Eterno Campeão</span></div>
+                                                <div style="font-family:sans-serif;font-size:16px;line-height:150%;text-align:center;color:#555555">Abraços,<br><span class="il">Paytour - Test</span></div>
                                              </td>
                                           </tr>
                                        </tbody>

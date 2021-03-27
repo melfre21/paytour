@@ -19,7 +19,7 @@
 					</div>
 
 					@if ($errors->any())
-					<div class="alert alert-primary alert-dismissible fade show" role="alert">
+					<div class="alert alert-danger alert-dismissible fade show" role="alert">
 						<p><strong>Erro:</strong> Alguns campos são de preenchimento obrigatório!</p>
 						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
@@ -41,7 +41,7 @@
 						<div class="form-row mb-2">
 							<div class="form-group col-md-12">
 								<label for="nome" class="mb-0">Nome</label>
-								<input type="text" class="form-control {{ $errors->any() ? 'is-invalid' : '' }}" id="inputEmail4" name="nome" placeholder="Nome Completo" required>
+								<input type="text" class="form-control {{ $errors->any() ? 'is-invalid' : '' }}" id="inputEmail4" name="nome" placeholder="Nome Completo">
 								@error('nome')
 								<div class="text-danger">
 									{{ $message }}

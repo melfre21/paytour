@@ -9,7 +9,7 @@
             <p class="lead text-white">Bem vindo ao teste, para vaga de Desenvolvedor Full Stack.</p>
             <p>
                 <a href="/curriculo/create" class="btn btn-primary my-2">Cadastrar Curriculo</a>
-                <a href="#" class="btn btn-outline-warning my-2">Saiba mais..</a>
+                <a href="https://github.com/melfre21/paytour" class="btn btn-outline-warning my-2">Saiba mais..</a>
             </p>
         </div>
     </div>

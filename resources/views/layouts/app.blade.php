@@ -23,7 +23,7 @@
         </main>
 
         <footer class="mt-auto text-white text-center">
-            <p>Desenvolvido por: <a href="https://afrenti.com.br" class="text-black">Melfre Diego</a></p>
+            <p>Desenvolvido por: <a href="https://github.com/melfre21/paytour" class="text-black">Melfre Diego</a></p>
         </footer>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
